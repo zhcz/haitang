@@ -1,9 +1,9 @@
 ---
 enable: true
 # title: "海棠诗社，古诗词的数字桃源"
-title: "古韵今风，海棠诗梦间"
+title: "林花谢了春红太匆匆..."
 # description: "当科技与艺术融合，诗词创作从此变得更有趣"
-description: "当科技与艺术融合，诗词创作从此变得更有趣"
+description: "海量诗词文"
 image: "@/assets/hero.png"
 
 primaryButton:

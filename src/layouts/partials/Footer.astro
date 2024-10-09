@@ -35,13 +35,13 @@ const {
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-gray-800 not-prose']}>
   
   <!-- Footer Background -->
-  <div class="bg-theme-light dark:bg-darkmode-theme-light absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+  <div class="bg-theme-light dark:bg-darkmode-theme-light absolute inset-0 pointer-events-none" aria-hidden="true" style="display: none"></div>
   
   <!-- Footer Links -->
   <div class="relative max-w-7xl mx-auto px-6 sm:px-6 md:px-6 lg:px-6 xl:px-0 2xl:px-0">
     
     <!-- Footer Logo -->
-    <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 pt-8 md:pt-12">
+    <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 pt-8 md:pt-12" style="display: none">
       <div class="col-span-12 lg:col-span-4">
         <div class="mb-2">
           <Logo />
